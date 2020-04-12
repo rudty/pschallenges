@@ -12,7 +12,7 @@ function solution(board, moves) {
     var outputValue = [];
     var answer = 0;
 
-    for (const m of moves) {
+    for (var m of moves) {
         if (lastPos[m - 1] >= board.length) {
             continue;
         }
